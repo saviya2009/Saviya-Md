@@ -28,7 +28,7 @@ cmd({
             pattern: "tts",
             desc: "text to speech.",
             category: "downloader",
-	    react: "✅",
+	    react: "🎤",
             filename: __filename,
             use: '<Hii,this is dark ewing>',
         },
