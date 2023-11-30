@@ -223,7 +223,7 @@ cmd({
             pattern: "play",
             desc: "Sends info about the query(of youtube video/audio).",
             category: "downloader",
-	    react: "✅",
+	    react: "🎵",
             filename: __filename,
             use: '<faded-Alan walker.>',
         },
