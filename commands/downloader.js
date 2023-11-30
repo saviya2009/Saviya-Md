@@ -563,7 +563,7 @@ cmd({
 
   //---------------------------------------------------------------------------
 cmd({
-        pattern: "ytdoc",
+        pattern: "song2",
         desc: "Downloads audio by yt link as document.",
         category: "downloader",
 	react: "✅",
