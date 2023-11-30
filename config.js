@@ -13,7 +13,7 @@ global.gurl = 'https://instagram.com/' // add your username
 global.sudo = process.env.SUDO || '2347039570336,923466319114'
 global.devs = '2347039570336';
 global.website = 'https://github.com/saviya55/Saviya-Md' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png'
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/49ceffdee14dac505f424.jpg'
 module.exports = {
   botname:   process.env.BOT_NAME === undefined ? 'SAVIYA-MD-BOT' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? 'excel' : process.env.OWNER_NAME,
