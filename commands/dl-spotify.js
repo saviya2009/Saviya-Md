@@ -19,7 +19,7 @@ let handler = async (m, { conn, text }) => {
         const name = data.spty.results.title
         const slink = data.spty.results.url;
 
-        const dlapi = `${gurubot}/spotifydl?text=${encodeURIComponent(text)}`;
+        const dlapi = `${saviyamd}/spotifydl?text=${encodeURIComponent(text)}`;
         const audioResponse = await fetch(dlapi);
         if (!audioResponse.ok) {
             console.log('Error fetching audio:', audioResponse.statusText);
