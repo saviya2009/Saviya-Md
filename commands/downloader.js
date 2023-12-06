@@ -57,7 +57,7 @@ cmd({
         pattern: "ydesc",
         desc: "Gives descriptive info of query from youtube..",
         category: "downloader",
-	react: "✅",
+	react: "👾",
         filename: __filename,
         use: '<yt search text>',
     },
