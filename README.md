@@ -18,7 +18,9 @@
 
 ## QR SCAN 
  
-[(SCAN QR 1)](https://saviya-md-qr.vercel.app/)
+* [`𝗦𝗖𝗔𝗡 𝗤𝗥 𝗖𝗢𝗗𝗘`](https://saviya-md-qr.vercel.app/)
+* [`𝗦𝗖𝗔𝗡 𝗤𝗥 𝗖𝗢𝗗𝗘 2`](https://0d986c2c-80bd-4d3e-a57f-76e2fdf785ee-00-3eiyhj4l9nvjj.kirk.replit.dev/)
+
 
 
 ## DEPLOY IN HEROKU
