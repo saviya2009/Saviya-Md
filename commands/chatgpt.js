@@ -2,7 +2,7 @@ const { bot, getGPTResponse, getDallEResponse } = require('../lib')
 
 bot(
   {
-    pattern: 'gpt ?(.*)',
+    pattern: 'ai',
     fromMe: true,
     desc: 'ChatGPT fun',
     type: 'AI',
