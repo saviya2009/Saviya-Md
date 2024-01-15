@@ -105,7 +105,7 @@ Eg:- .set THUMB_IMAGE:put image url
 Eg:- .setvar WORKTYPE:public/private
 
 
-©𝙂𝙀𝙉𝙀𝙍𝘼𝙏𝙀𝘿 𝘽𝙔 𝙆𝙄𝙉𝙂-𝙈𝘿
+©GENERATE BY SAVIYA-MD
 `,
 
                 footer: tlang().footer,
