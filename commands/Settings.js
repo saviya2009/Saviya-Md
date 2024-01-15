@@ -98,7 +98,10 @@ Eg:- .setvar PREFIX:.
 17⚙️🧬➣ To on/off Auto Read message type :
 Eg:- .setvar READ_MESSAGE:false/true
 
-18⚙️🧬➣ To public/privert  type :
+18♻⚙️🧬➣ To put thumb image type :
+Eg:- .set THUMB_IMAGE:put image url
+
+19⚙️🧬➣ To public/privert  type :
 Eg:- .setvar WORKTYPE:public/private
 
 
