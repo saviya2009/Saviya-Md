@@ -152,12 +152,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "apk",
-            desc: "Downloads apks  .",
-            category: "downloader",
-	    react: "📥",
-	    react: "📤",
-            filename: __filename,
-            use: '<add sticker url.>',
+            
         },
 
         async(Void, citel, text) => {
@@ -173,51 +168,6 @@ cmd({
 	else return citel.send("*APP not Found, Try Other Name*");
 	
 	
-	const apkSize = parseInt(data.size);
-	if(apkSize > 150) return citel.send(`❌ File size bigger than 200mb.`);
-       const url = data.dllink;
-	 let 
-         inf ="*📦SAVIYA-MD-APK-DL📦* "
-	
-         inf +="\n*🕹App Name :* " +data.name;
-         inf +="\n*🌐App id :* " +data.package;
-         inf +="\n*⬆️Last Up :* " +data.lastup;
-         inf +="\n*📥App Size :* " +data.size;
-        // inf +="\n*🔖App Link :* " +data.dllink;
-	inf +="\n\n "
-         
-
-axios.get(url, { responseType: 'stream' })
-  .then(response => {
-    const writer = fs.createWriteStream(filePath);
-    response.data.pipe(writer);
-
-    return new Promise((resolve, reject) => {
-      writer.on('finish', resolve);
-      writer.on('error', reject);
-    });
-  }).then(() => {
-	
-	let buttonMessage = {
-                        document: fs.readFileSync(filePath),
-                        mimetype: 'application/vnd.android.package-archive',
-                        fileName: data.name+`.apk`,
-                        caption : inf
-                        
-                    }
-                  Void.sendMessage(citel.chat, buttonMessage, { quoted: citel })
-
-    console.log('File downloaded successfully');
-
-  
-    fs.unlink(filePath, (err) => {
-      if (err) { console.error('Error deleting file:', err); } else { console.log('File deleted successfully'); } });
-  }) .catch(error => {
-	fs.unlink(filePath)
-    return citel.reply('*Apk not Found, Sorry*')//:', error.message);
-  });
-}
-)
 //-------------------------------------------------------------------------------
 cmd({
             pattern: "play",
