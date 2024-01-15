@@ -150,23 +150,7 @@ cmd({
         }
     )
     //---------------------------------------------------------------------------
-cmd({
-            pattern: "apk",
-            
-        },
 
-        async(Void, citel, text) => {
-        if(!text )return citel.reply("*Give me App Name*");
-
-	const getRandom = (ext) => { return `${Math.floor(Math.random() * 10000)}${ext}`; };
-	let randomName = getRandom(".apk");
-	const filePath = `./${randomName}`;     // fs.createWriteStream(`./${randomName}`)
-        const {  search , download } = require('aptoide-scraper')
-	let searc = await search(text);          //console.log(searc);
-	let data={};
-	if(searc.length){ data = await download(searc[0].id); }
-	else return citel.send("*APP not Found, Try Other Name*");
-	
 	
 //-------------------------------------------------------------------------------
 cmd({
